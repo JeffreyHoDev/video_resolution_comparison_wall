@@ -1,0 +1,38 @@
+.App {
+    display: block;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    .play-pause-button {
+        position: fixed;
+        z-index: 99;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .info-bar {
+            display: flex;
+            padding-top: .8rem;
+            padding-bottom: .8rem;
+            justify-content: space-evenly;
+
+            h4 {
+                // writing-mode: vertical-rl;
+                // text-orientation: upright;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            .video-list {
+                display: flex;
+                justify-content: space-evenly;
+
+            }
+        }
+    }
+
+    
+}
