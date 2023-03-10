@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Video Resolution Comparison Wall ----- <Link href="#"> To Calculator</Link></h1>
+      <h1>Video Resolution Comparison Wall ----- <Link href="https://jeffreyhodev.github.io/storage_video_bitrate_calculator"> To Calculator</Link></h1>
       <div className='scenario-buttons-group'>
         <Button disabled={playVideos} onClick={() => setScenario("normal")}>Normal View</Button>
         <Button disabled={playVideos} onClick={() => setScenario("rain")}>Rain View</Button>
