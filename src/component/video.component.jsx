@@ -9,7 +9,7 @@ import "./video.component.styles.scss"
 
 import { useEffect } from 'react';
 
-const VideoComponent = ({ sourceVideo, message, messageContent, playVideos, setPlayVideos, setLoadStatus }) => {
+const VideoComponent = ({ setCountPlayedFinish, sourceVideo, message, messageContent, playVideos, setPlayVideos, setLoadStatus }) => {
 
     const videoRef = useRef(undefined)
 
@@ -22,7 +22,7 @@ const VideoComponent = ({ sourceVideo, message, messageContent, playVideos, setP
     }, [playVideos])
 
     const onHandleEnd = () => {
-        setPlayVideos(!playVideos)
+        setCountPlayedFinish(prev => prev+1)
     }
 
     // const handleFullScreen = () => {
@@ -31,10 +31,10 @@ const VideoComponent = ({ sourceVideo, message, messageContent, playVideos, setP
 
     return (
         <>
-            <Card sx={{m: 1}}>
+            <Card className='video-component-overall-card' sx={{m: 1}}>
                 <div className='video-component-overall-container'>
                     <div className='video-player-container'>
-                        <video className='video' ref={videoRef} onEnded={onHandleEnd}>
+                        <video className='video' ref={videoRef} onEnded={onHandleEnd} muted="muted">
                             {/* <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/> */}
                             { sourceVideo ? <source src={require(`../assets/${sourceVideo}.mp4`)} type="video/mp4"/> : <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/>}
                         </video>
@@ -42,7 +42,7 @@ const VideoComponent = ({ sourceVideo, message, messageContent, playVideos, setP
                 </div>
                 <CardContent>
                     Scenario: {message}
-                    { messageContent ? <Box sx={{p: 1}}><Typography variant='body2'>{messageContent}</Typography></Box> : ""}
+                    { messageContent ? <Box sx={{p: 1}}><Typography style={{fontFamily: "Roboto Mono, monospace"}} variant='body2'>{messageContent}</Typography></Box> : ""}
                 </CardContent>    
             </Card>
 
