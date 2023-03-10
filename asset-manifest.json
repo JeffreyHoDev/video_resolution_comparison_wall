@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/video_wall/static/css/main.8663d497.css",
+    "main.js": "/video_wall/static/js/main.be6048e1.js",
+    "static/js/787.aa519058.chunk.js": "/video_wall/static/js/787.aa519058.chunk.js",
+    "static/media/1080p-day-normal.mp4": "/video_wall/static/media/1080p-day-normal.67c80bcf8211eb4634d8.mp4",
+    "static/media/1080p-day-rain.mp4": "/video_wall/static/media/1080p-day-rain.2f62fa112d61248f1079.mp4",
+    "static/media/1080p-night-rain.mp4": "/video_wall/static/media/1080p-night-rain.1603785fb2a36a6fc081.mp4",
+    "static/media/720p-day-normal.mp4": "/video_wall/static/media/720p-day-normal.1342a57fcb1b62aa38b5.mp4",
+    "static/media/1080p-night-normal.mp4": "/video_wall/static/media/1080p-night-normal.0c4d0bcece018ee0fe72.mp4",
+    "static/media/720p-day-rain.mp4": "/video_wall/static/media/720p-day-rain.af705a94bb0fdbe33293.mp4",
+    "static/media/720p-night-rain.mp4": "/video_wall/static/media/720p-night-rain.a1ddc0fd3d2a439aa253.mp4",
+    "static/media/480p-day-normal.mp4": "/video_wall/static/media/480p-day-normal.dbb96bc4fbe6142533d7.mp4",
+    "static/media/360p-day-normal.mp4": "/video_wall/static/media/360p-day-normal.c8b56cc3332bf2f1efda.mp4",
+    "static/media/720p-night-normal.mp4": "/video_wall/static/media/720p-night-normal.7f8f58138c0f5bcc1a48.mp4",
+    "static/media/480p-day-rain.mp4": "/video_wall/static/media/480p-day-rain.5e77ed53e84a3b53282f.mp4",
+    "static/media/480p-night-rain.mp4": "/video_wall/static/media/480p-night-rain.71c8f5bae294fda0be0b.mp4",
+    "static/media/480p-night-normal.mp4": "/video_wall/static/media/480p-night-normal.efe57a3db4a32dc1123c.mp4",
+    "static/media/360p-day-rain.mp4": "/video_wall/static/media/360p-day-rain.4ff095e37b6c2bf7f499.mp4",
+    "static/media/360p-night-rain.mp4": "/video_wall/static/media/360p-night-rain.816ac58523cd8f737a98.mp4",
+    "static/media/360p-night-normal.mp4": "/video_wall/static/media/360p-night-normal.80d17017cb1d82ad4f9a.mp4",
+    "static/media/240p-day-rain.mp4": "/video_wall/static/media/240p-day-rain.5831e30aba6d54aeb09b.mp4",
+    "static/media/240p-day-normal.mp4": "/video_wall/static/media/240p-day-normal.a4bf1617b9e396203a19.mp4",
+    "static/media/240p-night-rain.mp4": "/video_wall/static/media/240p-night-rain.1e1f5621a4e2ad090409.mp4",
+    "static/media/240p-night-normal.mp4": "/video_wall/static/media/240p-night-normal.d33b47fee4a109569edf.mp4",
+    "index.html": "/video_wall/index.html",
+    "main.8663d497.css.map": "/video_wall/static/css/main.8663d497.css.map",
+    "main.be6048e1.js.map": "/video_wall/static/js/main.be6048e1.js.map",
+    "787.aa519058.chunk.js.map": "/video_wall/static/js/787.aa519058.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8663d497.css",
+    "static/js/main.be6048e1.js"
+  ]
+}

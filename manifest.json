@@ -1,0 +1,25 @@
+{
+  "short_name": "Video Wall",
+  "name": "Different Resolution Video Comparison Wall",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo80.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    },
+    {
+      "src": "logo40.png",
+      "type": "image/png",
+      "sizes": "40x40"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
